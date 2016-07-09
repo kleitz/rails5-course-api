@@ -7,6 +7,9 @@ gem 'rails', '~> 5.0.0'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+
+gem 'active_model_serializers'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -24,6 +27,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.5.1'
+  gem 'rails-controller-testing'
+
 end
 
 group :development do
